@@ -1,84 +1,62 @@
-# Title
+# Microsoft Movie Analysis
 
-**Authors**: Student1, Student2
+
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+Microsoft is creating a new movie studio and has hired a new data scientist to explore the movie industry. Our goal is to perform some preliminary analysis, so Microsoft can take away a few actionable insights for their new movie studio in order to create the best movies possible. Main focus of this project is to analyze the given dataset and help Microsoft to start their own successful movie studio. 
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. Our goal is to collect, clean, and analyze movie data from different sources so that we can provide recommendations to Microsoft that will allow them to be successful in the movie industry.  
 
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
 
 ## Data
 
-Describe the data being used for this project.
+In the folder zippedData are movie datasets from:
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
+Box Office Mojo
+IMDB
+Rotten Tomatoes
+TheMovieDB.org
+the-numbers.com
+
+The analysis is based on given datasets provided by the Flatiron School.
+
+I have decided to use the following data files:
+
+imdb.title.basics
+imdb.title.ratings
+bom.movie_gross
+tn.movie_budgets
+
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
+Imported data and cleaned data using different methods, for example, I dropped rows with missing values and filled null values when appropriate, converted datatypes, merged multiple dataframes, created columns. After data cleaning, I utilized descriptive statistics as well as visualizations to isolate three factors of a successful movies. I used matplotlib and seaborn to visualize data.
 
-***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
-***
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+![graph1](./images/studio_profit_analysis.png)
 
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
+HC, P/DW,BV are the top 3 studios with over 400 million dollars average gross income.Since profit is considered as one of the important factors, these three studios are considered to be our competitors.
 
-Here is an example of how to embed images from your sub-folder:
+![graph2](./images/genre_analysis.png)
 
-### Visual 1
-![graph1](./images/viz1.png)
+Documentry, Drama and Comedy are the most successful genre with higher ratings in the past 10 years. we can also see that biography has a desirable rating along with history.
+
+![graph3](./images/month_analysis.png)
+
+Movies released in the month of 'May' and 'June' has made higher Domestic Gross compared to other months of the year.
 
 ## Conclusions
 
-Provide your conclusions about the work you've done, including any limitations or next steps.
-
-***
-Questions to consider:
-* What would you recommend the business do as a result of this work?
-* What are some reasons why your analysis might not fully solve the business problem?
-* What else could you do in the future to improve this project?
-***
+Microsoft should research these well established studio HC,P/DW,BV to earn more gross profit and focus their efforts on the top 5 most rated movie genres: Documentry, Drama, Comedy, Biography and History to be successful. They should also consider the rating of the movie because it was given by the targeted audience. We should release a movie in the month of may and june. one major reason is it is summer and it has highest profit during those months.
 
 ## For More Information
 
 Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact ** Prabagini Thambinathan & email - mail4prabagini@gmail.com**
 
-## Repository Structure
-
-Describe the structure of your repository and its contents, for example:
-
-```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
-```
