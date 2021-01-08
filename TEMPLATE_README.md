@@ -56,7 +56,7 @@ Microsoft should research these well established studio HC,P/DW,BV to earn more 
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./Microsoft-Movie-Analysis.ipynb) 
 
 For any additional questions, please contact ** Prabagini Thambinathan & email - mail4prabagini@gmail.com**
 
