@@ -38,15 +38,15 @@ Imported data and cleaned data using different methods, for example, I dropped r
 
 ## Results
 
-![graph1](./images/studio_profit_analysis.png)
+![graph1](images/studio_profit_analysis.png)
 
 HC, P/DW,BV are the top 3 studios with over 400 million dollars average gross income.Since profit is considered as one of the important factors, these three studios are considered to be our competitors.
 
-![graph2](./images/genre_analysis.png)
+![graph2](images/genre_analysis.png)
 
 Documentry, Drama and Comedy are the most successful genre with higher ratings in the past 10 years. we can also see that biography has a desirable rating along with history.
 
-![graph3](./images/month_analysis.png)
+![graph3](images/month_analysis.png)
 
 Movies released in the month of 'May' and 'June' has made higher Domestic Gross compared to other months of the year.
 
