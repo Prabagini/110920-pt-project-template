@@ -15,20 +15,20 @@ Microsoft sees all the big companies creating original video content and they wa
 
 In the folder zippedData are movie datasets from:
 
-Box Office Mojo
-IMDB
-Rotten Tomatoes
-TheMovieDB.org
-the-numbers.com
+- Box Office Mojo
+- IMDB
+- Rotten Tomatoes
+- TheMovieDB.org
+- the-numbers.com
 
 The analysis is based on given datasets provided by the Flatiron School.
 
 I have decided to use the following data files:
 
-imdb.title.basics
-imdb.title.ratings
-bom.movie_gross
-tn.movie_budgets
+- imdb.title.basics
+- imdb.title.ratings
+- bom.movie_gross
+- tn.movie_budgets
 
 
 ## Methods
@@ -58,5 +58,5 @@ Microsoft should research these well established studio HC,P/DW,BV to earn more 
 
 Please review our full analysis in [our Jupyter Notebook](./Microsoft-Movie-Analysis.ipynb) 
 
-For any additional questions, please contact ** Prabagini Thambinathan & email - mail4prabagini@gmail.com**
+For any additional questions, please contact Prabagini Thambinathan & email - mail4prabagini@gmail.com
 
