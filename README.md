@@ -21,7 +21,6 @@ In the folder zippedData are movie datasets from:
 - TheMovieDB.org
 - the-numbers.com
 
-The analysis is based on given datasets provided by the Flatiron School.
 
 I have decided to use the following data files:
 
